@@ -1,6 +1,6 @@
-# Vtuber Model Viewer and Face Tracker
+# vTuber model Viewer and Face Tracker
 
-A Linux-based VRM/gltf model viewer and webcam face tracking application built with Python and OpenGL. This tool allows you to load and view VRM/GLTF models and includes webcam-based face tracking capabilities.
+A Linux-based vtuber model viewer and webcam face tracking application built with Python and OpenGL. This tool allows you to load and view VRM/GLTF models and includes webcam-based face tracking capabilities.
 
 ## Features
 
@@ -12,9 +12,30 @@ A Linux-based VRM/gltf model viewer and webcam face tracking application built w
 
 ## Requirements
 
-### System Dependencies (Arch Linux)
+### System Dependencies
+
+#### Arch Linux
 ```bash
 sudo pacman -S python-pyqt5 python-opengl python-dlib cmake boost-libs openblas
+```
+
+#### Ubuntu/Debian
+```bash
+sudo apt update
+sudo apt install python3-pyqt5 python3-opengl python3-dlib
+sudo apt install libgl1-mesa-dev cmake libboost-all-dev libopenblas-dev
+```
+
+#### Fedora
+```bash
+sudo dnf install python3-qt5 python3-opengl python3-dlib
+sudo dnf install mesa-libGL-devel cmake boost-devel openblas-devel
+```
+
+#### openSUSE
+```bash
+sudo zypper install python3-qt5 python3-opengl python3-dlib
+sudo zypper install Mesa-libGL-devel cmake libboost_system-devel openblas-devel
 ```
 
 ### Python Dependencies
