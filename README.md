@@ -1,4 +1,4 @@
-# vTuber Model Viewer and Face Tracker
+# vTuber Model Viewer and Face Tracker - Not Working
 
 A Linux-based vtuber model viewer and webcam face tracking application built with Python and OpenGL. This tool allows you to load and view VRM/GLTF models and includes webcam-based face tracking capabilities.
 
